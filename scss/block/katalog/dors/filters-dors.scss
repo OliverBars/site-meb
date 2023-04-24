@@ -1,0 +1,115 @@
+
+.goods__tipe {
+  &-filt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 8px;
+  }
+  &-filters-common {
+    transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 0.8);
+    transform: translateX(0%);
+  }
+  &-filters-common.open {
+    height: 0px;
+    transform: translateX(-300%);
+
+  }
+  &-label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &-wrap{
+    height: 20px;
+    margin-bottom: 40px;
+  }
+}
+
+.arrow-accordion-style {
+  position: relative;
+  cursor: pointer;
+  margin: 20px;
+  width: 66px;
+  height: 30px;
+}
+.arrow-accordion-left {
+  position: absolute;
+  background-color: transparent;
+  top: -17px;
+  left: 0;
+  width: 40px;
+  height: 10px;
+  display: block;
+  transform: rotate(35deg);
+  float: right;
+  border-radius: 2px;
+}
+.arrow-accordion-left:after {
+  content: "";
+  background-color: #3b3937;
+  width: 20px;
+  height: 5px;
+  display: block;
+  float: right;
+  border-radius: 6px 10px 10px 6px;
+  transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 0.8);
+  z-index: -1;
+}
+
+.arrow-accordion-right {
+  position: absolute;
+  background-color: transparent;
+  top: -5px;
+  left: 16px;
+  width: 40px;
+  height: 10px;
+  display: block;
+  transform: rotate(-35deg);
+  float: right;
+  border-radius: 2px;
+}
+.arrow-accordion-right:after {
+  content: "";
+  background-color: #3b3937;
+  width: 20px;
+  height: 5px;
+  display: block;
+  float: right;
+  border-radius: 10px 6px 6px 10px;
+  transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 0.8);
+  z-index: -1;
+}
+.open .arrow-accordion-left:after {
+  transform-origin: center center;
+  transform: rotate(-70deg);
+}
+.open .arrow-accordion-right:after {
+  transform-origin: center center;
+  transform: rotate(70deg);
+}
+
+.check-style {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border: 2px solid #3d3d3d;
+  margin-left: 180px;
+}
+.disabled{
+  border: 2px solid #c4c4c4;
+}
+
+.check-box:checked + .check-style {
+  background-color: #000;
+  background-image: url("/image/Vector 53.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+.check-box:focus + .check-style {
+  box-shadow: 0 0 0 2px #000;
+}

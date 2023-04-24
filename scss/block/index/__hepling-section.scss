@@ -1,0 +1,50 @@
+.helping__box {
+  color: #3b3937;
+  display: flex;
+  margin-bottom: 100px;
+}
+.helping__second {
+  padding-left: 40px;
+  background: #f3f0ee;
+  &-title {
+    padding-top: 90px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    margin-bottom: 30px;
+  }
+  &-text {
+    font-size: 22px;
+    line-height: 140%;
+    margin-bottom: 60px;
+  }
+  &-input {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+  }
+  &-btn {
+    color: #f3f0ee;
+    margin-bottom: 90px;
+  }
+}
+.hepling-input {
+  width: 240px;
+  margin-right: 20px;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  border: none;
+  padding: 20px 0px 20px 20px;
+
+}
+.helping-btn {
+  padding: 0;
+  padding: 15px 80px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 140%;
+}

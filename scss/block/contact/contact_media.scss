@@ -1,0 +1,39 @@
+@media (max-width:1200px) {
+    .contact__box{
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .contact__first{
+        margin-bottom: 24px;
+        &-title{
+            margin-top: 40px;
+            text-align: center;
+            top: -16px;
+        }
+    }
+}
+@media (max-width:834px) {
+    .contact__second{
+        display: none;
+    }
+}
+@media (max-width:764px) {
+    .contact__feedback-input-top{
+        flex-wrap: wrap;
+    }
+    .helping-btn{
+        font-size: 20px;
+        padding: 15px 50px;
+    }
+}
+@media (max-width:680px) {
+    .contact__feedback{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .helping-btn{
+        font-size: 20px;
+        padding: 15px 30px;
+    }
+}

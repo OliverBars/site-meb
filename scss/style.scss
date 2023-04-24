@@ -1,0 +1,30 @@
+@import 'base/fonts.scss';
+@import 'base/reset';
+@import 'base/base';
+
+@import 'block/index/_header';
+@import 'block/index/_center-section';
+@import 'block/index/_info-section';
+@import 'block/index/_goods-section';
+@import 'block/index/_hepling-section';
+@import 'block/index/_stait-section';
+@import 'block/index/_footer';
+@import 'block/index/_media.scss';
+@import 'block/index/_about-us';
+
+
+@import 'block/delivery/delivery.scss';
+@import 'block/delivery/delivery_media.scss';
+
+@import 'block/contact/contact.scss';
+@import 'block/contact/contact_media.scss';
+
+@import 'block/katalog/katalog.scss';
+@import 'block/katalog/katalog_media.scss';
+@import 'block/katalog/dors/dors.scss';
+@import 'block/katalog/dors/filters-dors.scss';
+@import 'block/katalog/dors/dors-media.scss';
+@import 'block/katalog/kaatalog_mebel.scss';
+
+@import 'block/card/card-mebel.scss';
+@import 'block/card/card-door.scss';

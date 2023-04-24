@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/slick.css" rel="stylesheet" />
+    <link href="css/nouislider.min.css" rel="stylesheet" />
+    <link href="css/style.min.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <nav class="header__menu">
+            <a href="index.html">
+              <img class="header__menu-logo" src="image/logo.svg" alt="" />
+            </a>
+            <ul class="header__menu-nav">
+              <li class="header__menu-list">
+                <a class="header__menu-link" href="delivery.html">Доставка</a>
+              </li>
+              <li class="header__menu-list">
+                <a class="header__menu-link" href="stait.html">Статьи</a>
+              </li>
+              <li class="header__menu-list">
+                <a class="header__menu-link" href="about-us.html">О нас</a>
+              </li>
+              <li class="header__menu-list">
+                <a class="header__menu-link" href="contact.html">Контакты</a>
+              </li>
+            </ul>
+            <a class="header__menu-mail" href="mailto:support@sofiadoors.com"
+              >support@sofiadoors.com</a
+            >
+            <a class="header__menu-numb" href="tel:88005508179"
+              >0 (800) 550-81-79</a
+            >
+            <a class="header__menu-btn btn" href="katalog.html">Каталог</a>
+          </nav>
+          <div class="header__burger">
+            <span></span>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="goods">
+          <div class="container">
+            <div class="way">
+              <div class="way-title">Главная</div>
+              <div class="way-title">-</div>
+              <div class="way-title">Каталог</div>
+              <div class="way-title">-</div>
+              <div class="way-title">Межкомнатные двери</div>
+            </div>
+            <h2 class="goods-title title">Межкомнатные двери</h2>
+            <div class="goods__menu-wrapper">
+              <div class="goods__menu-nav">
+                <div class="goods__menu-top">
+                  <a class="goods__menu-title red" href="#">Межкомнатные двери</a>
+                  <a class="goods__menu-title" href="#">Мебель</a>
+                  <a class="goods__menu-title" href="#"
+                    >Стеновые панели «Буазери»</a
+                  >
+                  <a class="goods__menu-title" href="#">Лестницы</a>
+                  <a class="goods__menu-title" href="#">Мебельные фасады</a>
+                </div>
+                <div class="goods__menu-text">Ценовой диапазон</div>
+                <div class="renge-slider" id="renge-slider">
+                  <div class="goods__inputs">
+                    <label class="goods__inpust-label">
+                      <input
+                        class="goods__inputs-input"
+                        id="input-0"
+                        min="2000"
+                        max="50000"
+                        placeholder="2000"
+                        type="number"
+                      />
+                    </label>
+                    <label class="goods__inpust-label">
+                      <input
+                        class="goods__inputs-input"
+                        id="input-1"
+                        min="2000"
+                        max="50000"
+                        placeholder="50000"
+                        type="number"
+                      />
+                    </label>
+                  </div>
+                </div>
+                <div class="goods__tipe goods__tipe-top">
+                  <div class="goods__tipe-wrap">
+                    <div class="goods__tipe-title">Тип дверей</div>
+                    <div class="arrow-accordion arrow-accordion-style">
+                      <span class="arrow-accordion-left"></span>
+                      <span class="arrow-accordion-right"></span>
+                    </div>
+                  </div>
+                  <div class="goods__tipe-filters goods__tipe-filters-common">
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Межкомнатные
+                        <input class="check-box" type="checkbox" checked />
+                        <span class="check-style"></span>
+                      </label>
+                    </div>
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Скрытые
+                        <input class="check-box" type="checkbox" checked />
+                        <span class="check-style"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="goods__tipe">
+                  <div class="goods__tipe-wrap">
+                    <div class="goods__tipe-title">Стиль</div>
+                    <div class="arrow-accordion-2 arrow-accordion-style">
+                      <span class="arrow-accordion-left"></span>
+                      <span class="arrow-accordion-right"></span>
+                    </div>
+                  </div>
+                  <div class="goods__tipe-filters-2 goods__tipe-filters-common">
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Скандинавский
+                        <input class="check-box" type="checkbox" checked />
+                        <span class="check-style"></span>
+                      </label>
+                    </div>
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Винтаж
+                        <input class="check-box" type="checkbox" disabled />
+                        <span class="check-style disabled"></span>
+                      </label>
+                    </div>
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Современный
+                        <input class="check-box" type="checkbox" checked />
+                        <span class="check-style"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="goods__tipe">
+                  <div class="goods__tipe-wrap">
+                    <div class="goods__tipe-title">Материал</div>
+                    <div class="arrow-accordion-3 arrow-accordion-style">
+                      <span class="arrow-accordion-left"></span>
+                      <span class="arrow-accordion-right"></span>
+                    </div>
+                  </div>
+                  <div class="goods__tipe-filters-3 goods__tipe-filters-common">
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Эмаль
+                        <input class="check-box" type="checkbox" checked />
+                        <span class="check-style"></span>
+                      </label>
+                    </div>
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Монохромный Кортекс
+                        <input class="check-box" type="checkbox" checked />
+                        <span class="check-style"></span>
+                      </label>
+                    </div>
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Шёлк
+                        <input class="check-box" type="checkbox" disabled />
+                        <span class="check-style disabled"></span>
+                      </label>
+                    </div>
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Кортекс
+                        <input class="check-box" type="checkbox" checked />
+                        <span class="check-style"></span>
+                      </label>
+                    </div>
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Под покраску
+                        <input class="check-box" type="checkbox" disabled />
+                        <span class="check-style disabled"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="goods__tipe">
+                  <div class="goods__tipe-wrap">
+                    <div class="goods__tipe-title">Покрытие</div>
+                    <div class="arrow-accordion-4 arrow-accordion-style">
+                      <span class="arrow-accordion-left"></span>
+                      <span class="arrow-accordion-right"></span>
+                    </div>
+                  </div>
+                  <div class="goods__tipe-filters-4 goods__tipe-filters-common">
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Матовые
+                        <input class="check-box" type="checkbox" checked />
+                        <span class="check-style"></span>
+                      </label>
+                    </div>
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Глянцевые
+                        <input class="check-box" type="checkbox" checked />
+                        <span class="check-style"></span>
+                      </label>
+                    </div>
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Под покраску
+                        <input class="check-box" type="checkbox" disabled />
+                        <span class="check-style disabled"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="goods__tipe">
+                  <div class="goods__tipe-wrap">
+                    <div class="goods__tipe-title">Тип конструкции</div>
+                    <div class="arrow-accordion-5 arrow-accordion-style">
+                      <span class="arrow-accordion-left"></span>
+                      <span class="arrow-accordion-right"></span>
+                    </div>
+                  </div>
+                  <div class="goods__tipe-filters-5 goods__tipe-filters-common">
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Рамочные
+                        <input class="check-box" type="checkbox" checked />
+                        <span class="check-style"></span>
+                      </label>
+                    </div>
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Филёнчатые
+                        <input class="check-box" type="checkbox" checked />
+                        <span class="check-style"></span>
+                      </label>
+                    </div>
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Щитовые
+                        <input class="check-box" type="checkbox" disabled />
+                        <span class="check-style disabled"></span>
+                      </label>
+                    </div>
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Остеклённые
+                        <input class="check-box" type="checkbox" checked />
+                        <span class="check-style"></span>
+                      </label>
+                    </div>
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Глухие
+                        <input class="check-box" type="checkbox" disabled />
+                        <span class="check-style disabled"></span>
+                      </label>
+                    </div>
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Арочные
+                        <input class="check-box" type="checkbox" checked />
+                        <span class="check-style"></span>
+                      </label>
+                    </div>
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Радиусные
+                        <input class="check-box" type="checkbox" checked />
+                        <span class="check-style"></span>
+                      </label>
+                    </div>
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Автоматические
+                        <input class="check-box" type="checkbox" checked />
+                        <span class="check-style"></span>
+                      </label>
+                    </div>
+                    <div class="goods__tipe-wraps">
+                      <label class="goods__tipe-label">
+                        Противовзломные
+                        <input class="check-box" type="checkbox" disabled />
+                        <span class="check-style disabled"></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="goods__menu-katalog-wraper">
+                <div class="goods__menu-katalog">
+                  <div class="goods__door goods-katalog">
+                    <div class="goods__door-card">
+                      <div class="goods__door-naime">Sofia Original 50.07</div>
+                      <p class="goods__door-price">24 500 грн</p>
+                      <div class="goods__slider goods__slider-katalog">
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor1.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor1.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor1.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor1.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="goods__link goods__katalog-link">
+                        <a class="goods__link-sail" href="card-doors.html">купить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__door goods-katalog">
+                    <div class="goods__door-card">
+                      <div class="goods__door-naime">VISION Модель 64.43</div>
+                      <p class="goods__door-price">24 500 грн</p>
+                      <div class="goods__slider goods__slider-katalog">
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor2.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor2.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor2.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor2.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="goods__link">
+                        <a class="goods__link-sail" href="card-doors.html">купить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__door goods-katalog">
+                    <div class="goods__door-card">
+                      <div class="goods__door-naime">VISION Модель 64.44</div>
+                      <p class="goods__door-price">24 500 грн</p>
+                      <div class="goods__slider goods__slider-katalog">
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor3.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor3.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor3.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor3.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="goods__link">
+                        <a class="goods__link-sail" href="card-doors.html">купить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__door goods-katalog">
+                    <div class="goods__door-card">
+                      <div class="goods__door-naime">SKYLINE Модель 55.21</div>
+                      <p class="goods__door-price">24 500 грн</p>
+                      <div class="goods__slider goods__slider-katalog">
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor4.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor4.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor4.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor4.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="goods__link">
+                        <a class="goods__link-sail" href="card-doors.html">купить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__door goods-katalog">
+                    <div class="goods__door-card">
+                      <div class="goods__door-naime">SKYLINE Модель 55.23</div>
+                      <p class="goods__door-price">24 500 грн</p>
+                      <div class="goods__slider goods__slider-katalog">
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor5.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor5.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor5.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor5.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="goods__link">
+                        <a class="goods__link-sail" href="card-doors.html">купить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__door goods-katalog">
+                    <div class="goods__door-card">
+                      <div class="goods__door-naime">VISION Модель 64.44</div>
+                      <p class="goods__door-price">24 500 грн</p>
+                      <div class="goods__slider goods__slider-katalog">
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor6.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor6.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor6.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor6.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="goods__link">
+                        <a class="goods__link-sail" href="card-doors.html">купить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__door goods-katalog">
+                    <div class="goods__door-card">
+                      <div class="goods__door-naime">CLASSIC Модель 65.44</div>
+                      <p class="goods__door-price">24 500 грн</p>
+                      <div class="goods__slider goods__slider-katalog">
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor7.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor7.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor7.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor7.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="goods__link">
+                        <a class="goods__link-sail" href="card-doors.html">купить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__door goods-katalog">
+                    <div class="goods__door-card">
+                      <div class="goods__door-naime">CLASSIC Модель 64.22</div>
+                      <p class="goods__door-price">24 500 грн</p>
+                      <div class="goods__slider goods__slider-katalog">
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor8.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor8.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor8.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor8.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="goods__link">
+                        <a class="goods__link-sail" href="card-doors.html">купить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__door goods-katalog">
+                    <div class="goods__door-card">
+                      <div class="goods__door-naime">
+                        METAMORFOSA Модель 65.171
+                      </div>
+                      <p class="goods__door-price">24 500 грн</p>
+                      <div class="goods__slider goods__slider-katalog">
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor9.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor9.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor9.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor9.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="goods__link">
+                        <a class="goods__link-sail" href="card-doors.html">купить</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="goods__menu-katalog">
+                  <div class="goods__door goods-katalog">
+                    <div class="goods__door-card">
+                      <div class="goods__door-naime">Sofia Original 50.07</div>
+                      <p class="goods__door-price">24 500 грн</p>
+                      <div class="goods__slider goods__slider-katalog">
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor1.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor1.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor1.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor1.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="goods__link goods__katalog-link">
+                        <a class="goods__link-sail" href="card-doors.html">купить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__door goods-katalog">
+                    <div class="goods__door-card">
+                      <div class="goods__door-naime">VISION Модель 64.43</div>
+                      <p class="goods__door-price">24 500 грн</p>
+                      <div class="goods__slider goods__slider-katalog">
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor2.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor2.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor2.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor2.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="goods__link">
+                        <a class="goods__link-sail" href="card-doors.html">купить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__door goods-katalog">
+                    <div class="goods__door-card">
+                      <div class="goods__door-naime">VISION Модель 64.44</div>
+                      <p class="goods__door-price">24 500 грн</p>
+                      <div class="goods__slider goods__slider-katalog">
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor3.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor3.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor3.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor3.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="goods__link">
+                        <a class="goods__link-sail" href="card-doors.html">купить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__door goods-katalog">
+                    <div class="goods__door-card">
+                      <div class="goods__door-naime">SKYLINE Модель 55.21</div>
+                      <p class="goods__door-price">24 500 грн</p>
+                      <div class="goods__slider goods__slider-katalog">
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor4.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor4.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor4.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor4.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="goods__link">
+                        <a class="goods__link-sail" href="card-doors.html">купить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__door goods-katalog">
+                    <div class="goods__door-card">
+                      <div class="goods__door-naime">SKYLINE Модель 55.23</div>
+                      <p class="goods__door-price">24 500 грн</p>
+                      <div class="goods__slider goods__slider-katalog">
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor5.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor5.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor5.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor5.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="goods__link">
+                        <a class="goods__link-sail" href="card-doors.html">купить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__door goods-katalog">
+                    <div class="goods__door-card">
+                      <div class="goods__door-naime">VISION Модель 64.44</div>
+                      <p class="goods__door-price">24 500 грн</p>
+                      <div class="goods__slider goods__slider-katalog">
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor6.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor6.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor6.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor6.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="goods__link">
+                        <a class="goods__link-sail" href="card-doors.html">купить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__door goods-katalog">
+                    <div class="goods__door-card">
+                      <div class="goods__door-naime">CLASSIC Модель 65.44</div>
+                      <p class="goods__door-price">24 500 грн</p>
+                      <div class="goods__slider goods__slider-katalog">
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor7.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor7.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor7.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor7.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="goods__link">
+                        <a class="goods__link-sail" href="card-doors.html">купить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__door goods-katalog">
+                    <div class="goods__door-card">
+                      <div class="goods__door-naime">CLASSIC Модель 64.22</div>
+                      <p class="goods__door-price">24 500 грн</p>
+                      <div class="goods__slider goods__slider-katalog">
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor8.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor8.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor8.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor8.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="goods__link">
+                        <a class="goods__link-sail" href="card-doors.html">купить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="goods__door goods-katalog">
+                    <div class="goods__door-card">
+                      <div class="goods__door-naime">
+                        METAMORFOSA Модель 65.171
+                      </div>
+                      <p class="goods__door-price">24 500 грн</p>
+                      <div class="goods__slider goods__slider-katalog">
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor9.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor9.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor9.png"
+                          alt=""
+                        />
+                        <img
+                          class="goods__slider-img goods__slider-filters"
+                          src="/image/doors/dor9.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="goods__link">
+                        <a class="goods__link-sail" href="#">купить</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="goods__button-wrap">
+                    <div class="goods__button" href="#">показать все</div>
+                </div>
+
+                <h6 class="goods__dors-title title">Двери на заказ</h6>
+               <div class="goods__dors-wrap-parag">
+                  <p class="goods__dors-parag">
+                    Двери, представляющие из себя вертикальный прямоугольник,
+                    которые стоят в большинстве построенных квартир, представляют
+                    собой стандартный образец. Любые другие, отличающиеся по форме
+                    и размерам, считаются нестандартными и изготавливаются по
+                    заказу. Наша компания предлагает услугу изготовления
+                    межкомнатных дверей на заказ с доставкой в Киеве
+                    области. Для того чтобы определиться с заказом, необходимо
+                    чётко представлять возможности изготовления дверей.
+                  </p>
+                  <p class="goods__dors-parag">
+                    Изготавливаются они следующим образом: создаётся каркас из
+                    недорогой древесины, который затем обшивается панелями МДФ.
+                    Панели ламинируются плёнкой любых оттенков. Шпонированные
+                    варианты представляют собой целостный натуральный массив из
+                    дерева, покрытый шпоном из МДФ. Классические массивные и
+                    глухие модели, и лёгкие модели со стеклом, могут быть
+                    изготовлены из натурального дерева.
+                  </p>
+                  <p class="goods__dors-parag">
+                    Если Вам необходима модель с эксклюзивным дизайном, можно
+                    сделать её по специальному проекту. Независимо тот того, в
+                    какой ценовой категории будут находиться выбранные вами
+                    изделия, все они выполнены из качественного материала, надёжны
+                    и безопасны.
+                  </p>
+               </div>
+              </div>
+            </div>
+            <div class="helping__box">
+              <img class="helping__box-img" src="/image/input1.jpg" alt="">
+              <div class="helping__second">
+                  <div class="helping__second-title title">Нужна помощь с выбором?</div>
+                  <div class="helping__second-text">Наши специалисты с радостью помогут Вам, оставьте свой номер телефона!</div>
+                  <div class="helping__second-input">
+                      <input class="hepling-input" placeholder="Как вас зовут?" type="text">
+                      <input class="hepling-input" placeholder="Ваш телефон" type="text">
+                  </div>
+                  <div class="helping__second-btn">
+                      <a class="helping-btn btn" href="#">Связаться с нами</a>
+                  </div>
+              </div>
+          </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+            <div class="footer__box">
+                <div class="box__links">
+                    <img class="box__links-logo" src="/image/logo.svg" alt="">
+                    <p class="box__links-fab">Фабрика G&G. 2022</p>
+                    <p class="box__links-about">© Все права защищены</p>
+                </div>
+                <div class="box__links">
+                    <a class="box__links-numb" href="tel:88005508179">0 (800) 550-81-79</a>
+                    <p class="box__links-abouts">м. Полежаевская</p>
+                    <p class="box__links-date">123154, г. Киев, пр-т. Маршала, д. 52, "Мебельный Центр"</p>
+                    <a class="box__link-mail" href="mailto:support@sofiadoors.com">support@sofiadoors.com</a>
+                </div>
+                <div class="box__links">
+                    <a class="box__links-link" href="katalog_dors.html">Межкомнатные двери</a>
+                    <a class="box__links-link" href="katalog_mebli.html">Мебель</a>
+                    <a class="box__links-link" href="katalog.html">Стеновые панели «Буазери»</a>
+                    <a class="box__links-link" href="katalog.html">Лестницы</a>
+                    <a class="box__links-link" href="katalog.html">Мебельные фасады</a>
+                </div>
+                <div class="box__links">
+                    <div class="box__links-about">
+                        <a class="box__links-link" href="delivery.html">Доставка</a>
+                        <a class="box__links-link" href="stait.html">Статьи</a>
+                        <a class="box__links-link" href="about-us.html">О нас</a>
+                        <div class="box__links-social">
+                            <img class="social-img" src="image/social1.svg" alt="">
+                            <img class="social-img" src="image/social2.svg" alt="">
+                            <img class="social-img" src="image/social3.svg" alt="">
+                        </div>
+                    </div>
+                    <a class="box__links-politic" href="#">Политика конфиденциальности</a>
+                </div>
+        </div>
+    </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <script src="js/renge-slider.js"></script>
+  </body>
+</html>

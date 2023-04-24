@@ -1,0 +1,32 @@
+.slick-slide img {
+  margin: 0 auto;
+}
+
+.slider__big-top {
+  margin: 80px 0;
+}
+.about__colors {
+  &-color {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  &-img {
+    margin-right: 7px;
+  }
+  &-img.active {
+    border: 2px solid #3b3937;
+    border-radius: 52%;
+  }
+  &-title-top {
+    margin-bottom: 30px;
+  }
+  &-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    margin-bottom: 30px;
+    letter-spacing: 0.01em;
+  }
+}

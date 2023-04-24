@@ -1,0 +1,40 @@
+.delivery__box {
+    margin-bottom: 90px;
+  &-title {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    margin-bottom: 30px;
+  }
+  &-img {
+    margin-bottom: 50px;
+}
+  &-parag {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    max-width: 910px;
+    margin-bottom: 40px;
+  }
+  &-text{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    margin-bottom: 20px;
+  }
+  &-menu{
+    list-style: none;
+  }
+  &-list::before{
+    content: "\2022";
+    color: #B14101;
+    padding-right: 1em;
+    font-size: 20px;
+  }
+  &-list{
+    margin-bottom: 20px;
+    max-width: 820px;
+  }
+}

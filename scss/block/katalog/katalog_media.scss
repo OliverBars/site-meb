@@ -1,0 +1,12 @@
+@media(max-width:1248px){
+    .katalog__box{
+        justify-content: center;
+        &-card{
+            margin-right: 20px;
+            background-position: center;
+        }
+        &-card:nth-child(5){
+            background-position: right;
+        }
+    }
+}

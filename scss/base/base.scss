@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  height: 100%;
+
+}
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  flex: 1 1 auto;
+}
+
+section {
+  color: #3b3937;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+.btn {
+  padding: 11px 40px;
+  background-color: #ad895f;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+
+.title {
+  font-family: "PermianSerifTypeface";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+}
+.way {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  padding-top: 50px;
+  max-width: 233px;
+  display: flex;
+  justify-content: space-between;
+  color: #b1b0af;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.check-box {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+.red{
+  color: #B14101;
+}

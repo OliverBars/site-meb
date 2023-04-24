@@ -1,0 +1,39 @@
+.header {
+  color: #ffffff;
+  background-color: #3b3937;
+
+}
+
+.header__menu {
+
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  &-nav {
+    display: flex;
+    align-items: center;
+  }
+  &-link {
+    padding-right: 36px;
+  }
+  &-btn {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 140%;
+  }
+  &-cont {
+    color: #ffd6a8;
+  }
+  &-numb {
+    color: #ffd6a8;
+  }
+  &-mail {
+    color: #ffd6a8;
+  }
+}
+.header__button{
+  display: none;
+}

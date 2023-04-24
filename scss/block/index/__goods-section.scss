@@ -1,0 +1,134 @@
+.goods {
+  margin-bottom: 200px;
+  &-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-bottom: 60px;
+  }
+}
+
+.goods__nav {
+  &-menu {
+    display: flex;
+    justify-content: center;
+  }
+  &-list:hover {
+    border: 2px solid #3b3937;
+    transition: 0.2s;
+    color: #3b3937;
+  }
+  &-list {
+    border: 1px solid #dadada;
+    padding: 19px 54px;
+    margin-bottom: 40px;
+    color: #dadada;
+  }
+  &-list:first-child {
+    border: 2px solid #3b3937;
+    color: #3b3937;
+  }
+  &-archer{
+    display: none;
+  }
+}
+.goods__door {
+  margin-right: 5px;
+  max-width: 350px;
+  border: 1px solid #dadada;
+  &-card {
+  }
+
+  &-naime {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  &-price {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    margin-bottom: 33px;
+    padding-left: 20px;
+  }
+}
+
+.goods__link {
+  position: relative;
+  top: -15px;
+  text-align: right;
+  padding-right: 20px;
+  &-sail {
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 140%;
+    color: #b14101;
+  }
+}
+
+.goods__slider {
+  &-img {
+    padding: 0px 80px;
+  }
+}
+
+.slick-dots {
+  width: 100px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+.slick-dots li {
+  margin: 0 8px;
+  background: #dadada;
+  border-radius: 50%;
+}
+
+.slick-dots button {
+  font-size: 0;
+  display: block;
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+}
+.slick-dots li.slick-active button {
+  background-color: #3b3937;
+}
+
+.goods {
+  &__door {
+    margin-top: 20px;
+  }
+  &__door-card{
+
+  }
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  &__button {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    padding: 20px 0 20px;
+    border: 0.5px solid #dadada;
+  }
+}

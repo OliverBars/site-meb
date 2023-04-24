@@ -1,0 +1,36 @@
+.min {
+  width: 150px;
+  margin-bottom: 40px;
+}
+.about {
+  text-align: left;
+  &-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    max-width: 950px;
+    margin-bottom: 50px;
+  }
+  &-top-img {
+    margin-bottom: 50px;
+  }
+  &-text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    margin-bottom: 50px;
+    max-width: 907px;
+  }
+  &-parag {
+    max-width: 910px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .about-title {
+    font-size: 40px;
+  }
+}

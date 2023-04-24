@@ -1,0 +1,135 @@
+.way {
+  max-width: 300px;
+}
+
+.goods__katalog-dors {
+}
+
+.goods {
+  &__menu-katalog:nth-child(2){
+    margin-bottom: 50px;
+  }
+  &__slider-filters{
+    height: 150px;
+  }
+  &-katalog{
+    max-width: 290px;
+  }
+  &__slider-katalog {
+
+  }
+  &__menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  &__menu-title {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  &__menu-nav {
+    margin-right: 20px;
+  }
+  &__menu-katalog {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__inputs-input {
+    border: 1px solid #dadada;
+    width: 108px;
+    height: 40px;
+    padding-left: 12px;
+  }
+  &__menu-top {
+    margin-bottom: 60px;
+  }
+  &__menu-text {
+    margin-bottom: 30px;
+  }
+  &__inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  &__dors-title {
+    padding-left: 30px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    margin-bottom: 20px;
+  }
+  &__dors-parag {
+    max-width: 950px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 10px;
+  }
+  &__button-wrap{
+    padding-bottom: 60px;
+    border-bottom: 2px solid #c4c4c4 ;
+    margin: 0 0 50px;
+  }
+  &__dors-wrap-parag{
+    margin-bottom: 50px;
+  }
+}
+.noUi-target {
+  background: none;
+  border-radius: none;
+  border: none;
+  box-shadow: none;
+}
+.noUi-connect {
+  background: #3b3937;
+  height: 2px;
+}
+.noUi-handle::after,
+.noUi-handle::before {
+  display: none;
+}
+.noUi-handle {
+  box-shadow: none;
+  background: #ffffff;
+  border-radius: 100%;
+}
+.noUi-horizontal .noUi-handle {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #3b3937;
+  top: -8px;
+  right: -8px;
+}
+.noUi-horizontal {
+  width: 240px;
+}
+.goods__tipe {
+  margin-top: 50px;
+  &-top {
+    margin-top: 150px;
+  }
+  &-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+  }
+  &-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.goods__tipe:last-child {
+  margin-top: 50px;
+}

@@ -1,0 +1,50 @@
+.center {
+  margin: 10px;
+  background-image: url("/image/back1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top bottom;
+  padding-bottom: 100px;
+}
+
+.center__box {
+  max-width: 450px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 150px;
+  padding-bottom: 190px;
+  color: #fff;
+  &-wrapper {
+    border-radius: 50%;
+    padding: 120px 10px;
+    background-color: rgba($color: #333333, $alpha: 0.5);
+    padding-bottom: 150px;
+    margin-top: 10px;
+  }
+
+  &-info {
+  }
+  &-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+  }
+  &-parag {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #ffd6a8;
+    margin-bottom: 15px;
+  }
+  &-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    max-width: 354px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
+  &-btn {
+    margin-bottom: 20px;
+  }
+}

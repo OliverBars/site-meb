@@ -1,0 +1,25 @@
+@media (max-width: 900px) {
+  .delivery__box {
+    &-img {
+      margin-bottom: 50px;
+      width: 450px;
+    }
+  }
+}
+@media (max-width: 475px) {
+    .delivery__box {
+        &-img {
+          margin-bottom: 50px;
+          width: 350px;
+        }
+      }
+}
+
+@media (max-width: 365px) {
+    .delivery__box {
+        &-img {
+          margin-bottom: 50px;
+          width: 300px;
+        }
+      }
+}

@@ -1,0 +1,25 @@
+@media(max-width:1174px){
+ .goods__menu{
+    &-katalog{
+        justify-content: center;
+    }
+ }
+}
+@media(max-width:879px){
+    .goods__menu{
+        &-katalog:nth-child(2){
+         display: none;
+        }
+
+}
+}
+@media(max-width:580px){
+    .goods__menu-wrapper{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:500px){
+    .goods-title{
+        font-size: 41px;
+    }
+}
