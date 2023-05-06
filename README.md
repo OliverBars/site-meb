@@ -2,6 +2,7 @@ Technologies used in development:
 
 SCSS (Sass): A popular CSS preprocessor that extends the capabilities of CSS, allowing
 for variables, mixins, and other features to make CSS coding more efficient and maintainable.
+flex,grid
 
 Gulp: A task runner/build system that automates repetitive tasks in the development workflow, such 
 as compiling SCSS to CSS, minifying files, and optimizing images.
